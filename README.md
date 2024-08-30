@@ -28,7 +28,8 @@
     - [Switching Branches](#switching-branches)
     - [Merging Branches](#merging-branches)
 6. [Pull Requests and Issue](#Pull-Requests-and-Issue)
-    - 
+    - [Working with Pull Requests](#Working-with-Pull-Requests)
+    - [GitHub Issues](#GitHub-Issues)
 7. [Working with Git in Visual Studio Code (VS Code)](#working-with-git-in-visual-studio-code-vs-code)
     - [Cloning a Repository in VS Code](#cloning-a-repository-in-vs-code)
     - [Making Changes and Committing](#making-changes-and-committing)
@@ -65,45 +66,45 @@ A commit is a snapshot of your repository at a specific point in time. Commits i
 Branches allow you to develop features or fixes in isolation from the main codebase. The default branch is usually main or master.
 
 ## Essential Git Commands
-### git init
+### `git init`
 Initializes a new Git repository in your current directory.
 ```bash
 git init
 ```
-### git clone
+### `git clone`
 Clones an existing Git repository from a remote location (like GitHub) to your local machine.
 ```bash
 git clone <repository-url>
 ```
-### git add
+### `git add`
 Adds changes from the working directory to the staging area.
 ```bash
 git add <file>
 # Or add all changes
 git add .
 ```
-### git commit
+### `git commit`
 Commits the staged changes with a descriptive message.
 
 ```bash
 git commit -m "Your commit message"
 ```
-### git push
+### `git push`
 Pushes your local commits to a remote repository (e.g., GitHub).
 ```bash
 git push origin <branch-name>
 ```
-### git fetch
+### `git fetch`
 Fetches changes from a remote repository without merging them into your working directory.
 ```bash
 git fetch
 ```
-### git pull
+### `git pull`
 Fetches changes from a remote repository and merges them into your current branch.
 ```bash
 git pull origin <branch-name>
 ```
-### git branch
+### `git branch`
 Lists all branches in your repository, or creates a new branch.
 ```bash
 # List branches
@@ -112,22 +113,22 @@ git branch
 # Create a new branch
 git branch <new-branch-name>
 ```
-### git checkout
+### `git checkout`
 Switches to a different branch.
 ```bash
 git checkout <branch-name>
 ```
-### git merge
+### `git merge`
 Merges changes from one branch into your current branch.
 ```bash
 git merge <branch-name>
 ```
-### git status
+### `git status`
 Shows the status of changes as untracked, modified, or staged.
 ```bash
 git status
 ```
-### git log
+### `git log`
 Shows the commit history for the repository.
 ```bash
 git log
