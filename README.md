@@ -187,19 +187,19 @@ If a pull request is no longer needed, it can be closed without merging. This is
 ### Making Changes and Committing
 1. Make changes to your files in VS Code.
 2. Go to the Source Control view by clicking the Git icon in the Activity Bar.
-3. Stage your changes by clicking the + icon next to the files.
+3. Stage your changes by clicking the `+` icon next to the files.
 4. Enter a commit message and click the checkmark icon to commit.
 ### Pushing Changes
-1. After committing, click the ... menu in the Source Control view.
+1. After committing, click the `...` menu in the Source Control view.
 2. Select Push to push your changes to the remote repository.
 ### Pulling Changes
-1. To update your local branch with remote changes, click the ... menu in the Source Control view.
+1. To update your local branch with remote changes, click the `...` menu in the Source Control view.
 2. Select Pull to fetch and merge changes.
 ### Branch Management in VS Code
 1. To create or switch branches, click on the branch name in the lower-left corner.
 2. Select Create new branch or choose an existing branch.
 ## Best Practices
-Commit Often: Commit your changes frequently with clear and concise messages.
-Use Branches: Always use branches for new features or fixes.
-Pull Before You Push: Always pull the latest changes from the remote repository before pushing your changes.
-Review Before Merging: Use pull requests and code reviews to ensure quality before merging.
+- Commit Often: Commit your changes frequently with clear and concise messages.
+- Use Branches: Always use branches for new features or fixes.
+- Pull Before You Push: Always pull the latest changes from the remote repository before pushing your changes.
+- Review Before Merging: Use pull requests and code reviews to ensure quality before merging.
